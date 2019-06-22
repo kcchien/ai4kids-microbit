@@ -1,0 +1,19 @@
+site_name: AI4Kids micro:bit 體驗課程
+site_description: AI4Kids 課程講義
+nav:
+    - 首頁: index.md
+    - 課程: 
+        - 簡介: handout.md
+        - 專題 1 :剪刀石頭布: projects/1.md
+        - 專題 2 :指北針: projects/2.md
+        - 專題 3 :十八樂: projects/3.md
+    - 關於: about.md
+theme: 
+  name: material
+  feature:
+    tabs: true
+extra_css:
+  - 'css/extra.css'
+extra_javascript:
+  - js/jquery-3.4.1.min.js
+  - js/embed.js

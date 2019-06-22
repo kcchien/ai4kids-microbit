@@ -1,5 +1,7 @@
 site_name: AI4Kids micro:bit 體驗課程
 site_description: AI4Kids 課程講義
+site_author: '簡光正 Kuang-Cheng, Chien'
+site_url: 'https://kcchien.github.io/ai4kids-microbit/'
 nav:
     - 首頁: index.md
     - 課程: 
@@ -12,6 +14,17 @@ theme:
   name: material
   feature:
     tabs: true
+
+# Repository
+repo_name: 'kcchien/ai4kids-microbit'
+repo_url: 'https://github.com/kcchien/ai4kids-microbit'
+
+# Customization
+extra:
+  social:
+    - type: 'facebook'
+      link: 'https://www.facebook.com/AI4kidsTW/'
+
 extra_css:
   - 'css/extra.css'
 extra_javascript:
